@@ -12,6 +12,10 @@ class RemovedInDjango51Warning(PendingDeprecationWarning):
     pass
 
 
+class RemovedInDjango60Warning(DeprecationWarning):
+    pass
+
+
 RemovedInNextVersionWarning = RemovedInDjango50Warning
 RemovedAfterNextVersionWarning = RemovedInDjango51Warning
 
